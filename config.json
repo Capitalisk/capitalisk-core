@@ -1,0 +1,139 @@
+{
+  "base": {
+    "constants": {
+      "EPOCH_TIME": "2016-05-24T17:00:00.000Z",
+      "BLOCK_TIME": 10,
+      "MAX_TRANSACTIONS_PER_BLOCK": 25,
+      "DELEGATE_LIST_ROUND_OFFSET": 2,
+      "REWARDS": {
+        "MILESTONES": [
+          "500000000",
+          "400000000",
+          "300000000",
+          "200000000",
+          "100000000"
+        ],
+        "OFFSET": 2160,
+        "DISTANCE": 3000000
+      },
+      "ACTIVE_DELEGATES": 101,
+      "BLOCK_SLOT_WINDOW": 5,
+      "BLOCK_RECEIPT_TIMEOUT": 20,
+      "FEES": {
+        "SEND": "10000000",
+        "VOTE": "100000000",
+        "SECOND_SIGNATURE": "500000000",
+        "DELEGATE": "2500000000",
+        "MULTISIGNATURE": "500000000",
+        "DAPP_REGISTRATION": "2500000000",
+        "DAPP_WITHDRAWAL": "10000000",
+        "DAPP_DEPOSIT": "10000000"
+      },
+      "MAX_PAYLOAD_LENGTH": 1048576,
+      "MAX_SHARED_TRANSACTIONS": 100,
+      "MAX_VOTES_PER_ACCOUNT": 101,
+      "TOTAL_AMOUNT": "10000000000000000",
+      "TRANSACTION_TYPES": {
+        "SEND": 0,
+        "SIGNATURE": 1,
+        "DELEGATE": 2,
+        "VOTE": 3,
+        "MULTI": 4,
+        "DAPP": 5,
+        "IN_TRANSFER": 6,
+        "OUT_TRANSFER": 7
+      },
+      "UNCONFIRMED_TRANSACTION_TIMEOUT": 10800,
+      "EXPIRY_INTERVAL": 30000
+    },
+    "broadcasts": {
+      "active": true,
+      "broadcastInterval": 5000,
+      "releaseLimit": 25
+    },
+    "transactions": {
+      "maxTransactionsPerQueue": 1000
+    },
+    "forging": {
+      "force": false,
+      "delegates": []
+    },
+    "syncing": {
+      "active": true
+    },
+    "loading": {
+      "loadPerIteration": 5000,
+      "rebuildUpToRound": null
+    },
+    "exceptions": {
+      "blockRewards": [],
+      "senderPublicKey": [],
+      "signatures": [],
+      "signSignature": [],
+      "multisignatures": [],
+      "votes": [],
+      "inertTransactions": [],
+      "rounds": {},
+      "precedent": { "disableDappTransfer": 0, "disableDappTransaction": 0 },
+      "ignoreDelegateListCacheForRounds": [],
+      "blockVersions": {},
+      "roundVotes": [],
+      "recipientLeadingZero": {},
+      "recipientExceedingUint64": {},
+      "duplicatedSignatures": {},
+      "transactionWithNullByte": []
+    }
+  },
+  "redirects": {
+    "chain": "ldem_lisk_chain",
+    "http_api": "ldem_lisk_http_api"
+  },
+  "modules": {
+    "leasehold_app": {},
+    "leasehold_net": {},
+    "ldem_lisk_chain": {
+      "modulePath": "node_modules/ldem-lisk-chain",
+      "networkName": "testnet",
+      "database": "lisk_test"
+    },
+    "ldem_lisk_http_api": {
+      "modulePath": "node_modules/ldem-lisk-http-api",
+      "httpPort": 7000,
+      "access": {
+        "public": true
+      },
+      "forging": {
+        "access": {
+          "whiteList": ["127.0.0.1"]
+        }
+      }
+    },
+    "leasehold_chain": {
+      "modulePath": "node_modules/leasehold-chain",
+      "networkName": "testnet",
+      "database": "leasehold_test",
+      "constants": {
+        "ACTIVE_DELEGATES": 39,
+        "REWARDS": {
+          "MILESTONES": [
+            "0"
+          ],
+          "OFFSET": 1,
+          "DISTANCE": 1
+        },
+      }
+    },
+    "leasehold_http_api": {
+      "modulePath": "node_modules/leasehold-http-api",
+      "httpPort": 7010,
+      "access": {
+        "public": true
+      },
+      "forging": {
+        "access": {
+          "whiteList": ["127.0.0.1"]
+        }
+      }
+    }
+  }
+}

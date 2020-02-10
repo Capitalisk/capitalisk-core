@@ -1,0 +1,36 @@
+{
+  "name": "leasehold-core",
+  "version": "1.0.0",
+  "description": "A full Leasehold node implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leasehold/leasehold-core.git"
+  },
+  "keywords": [
+    "leasehold",
+    "lisk",
+    "node",
+    "dex"
+  ],
+  "author": "Jonathan Gros-Dubois",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Leasehold/leasehold-core/issues"
+  },
+  "homepage": "https://github.com/Leasehold/leasehold-core#readme",
+  "dependencies": {
+    "ldem": "^1.0.1",
+    "leasehold-chain": "^1.1.3",
+    "leasehold-http-api": "^2.0.1",
+    "ldem-lisk-chain": "^0.9.1",
+    "ldem-lisk-http-api": "^1.0.0",
+    "object-assign-deep": "^0.4.0"
+  },
+  "bin": {
+    "leasehold": "bin/cli.js"
+  }
+}
