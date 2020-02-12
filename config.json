@@ -120,6 +120,7 @@
     },
     "leasehold_http_api": {
       "modulePath": "node_modules/leasehold-http-api",
+      "chainModuleAlias": "leasehold_chain",
       "httpPort": 7010,
       "access": {
         "public": true
