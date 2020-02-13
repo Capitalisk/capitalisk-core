@@ -283,7 +283,7 @@
       "modulePath": "node_modules/lisk-dex-http-api",
       "port": 7011,
       "enableCORS": true,
-      "chainModuleAlias": "lisk_dex_lsh_lsk",
+      "dexModuleAlias": "lisk_dex_lsh_lsk",
       "components": {
         "logger": {
           "fileLogLevel": "debug",
