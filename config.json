@@ -280,6 +280,7 @@
       }
     },
     "lisk_dex_lsh_lsk_http_api": {
+      "modulePath": "node_modules/lisk-dex-http-api",
       "port": 7011,
       "enableCORS": true,
       "chainModuleAlias": "lisk_dex_lsh_lsk",
