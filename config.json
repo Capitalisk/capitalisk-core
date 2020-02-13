@@ -219,6 +219,65 @@
           "whiteList": ["127.0.0.1"]
         }
       }
+    },
+    "ldex": {
+      "modulePath": "node_modules/lisk-dex",
+      "passiveMode": false,
+      "signatureBroadcastDelay": 15000,
+      "transactionSubmitDelay": 5000,
+      "multisigExpiry": 86400000,
+      "multisigExpiryCheckInterval": 60000,
+      "orderBookSnapshotFinality": 303,
+      "orderBookSnapshotFilePath": "./lisk-dex-orderbook-snapshot.json",
+      "orderBookSnapshotBackupDirPath": "./orderbook-snapshots",
+      "orderBookSnapshotBackupMaxCount": 50,
+      "baseChain": "lsk",
+      "apiDefaultPageLimit": 100,
+      "apiMaxPageLimit": 100,
+      "apiMaxFilterFields": 10,
+      "readBlocksInterval": 3000,
+      "components": {
+        "logger": {
+          "fileLogLevel": "debug",
+          "consoleLogLevel": "debug"
+        }
+      },
+      "chains": {
+        "lsk": {
+          "database": "lisk_test",
+          "moduleAlias": "ldem_lisk_chain",
+          "walletAddress": "",
+          "sharedPassphrase": "",
+          "passphrase": "",
+          "requiredConfirmations": 2,
+          "orderHeightExpiry": 259200,
+          "rebroadcastAfterHeight": 5,
+          "rebroadcastUntilHeight": 720,
+          "readMaxBlocks": 1000,
+          "exchangeFeeBase": 10000000,
+          "exchangeFeeRate": 0.001,
+          "minOrderAmount": 1000000000,
+          "dexDisabledFromHeight": null,
+          "dexMovedToAddress": ""
+        },
+        "lsh": {
+          "database": "leasehold_test",
+          "moduleAlias": "leasehold_chain",
+          "walletAddress": "",
+          "sharedPassphrase": "",
+          "passphrase": "",
+          "requiredConfirmations": 2,
+          "orderHeightExpiry": 259200,
+          "rebroadcastAfterHeight": 5,
+          "rebroadcastUntilHeight": 720,
+          "readMaxBlocks": 1000,
+          "exchangeFeeBase": 10000000,
+          "exchangeFeeRate": 0.001,
+          "minOrderAmount": 1000000000,
+          "dexDisabledFromHeight": null,
+          "dexMovedToAddress": ""
+        }
+      }
     }
   }
 }
