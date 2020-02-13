@@ -103,34 +103,6 @@
   "modules": {
     "leasehold_app": {},
     "leasehold_net": {},
-    "leasehold_chain": {
-      "modulePath": "node_modules/leasehold-chain",
-      "networkName": "testnet",
-      "database": "leasehold_test",
-      "constants": {
-        "ACTIVE_DELEGATES": 39,
-        "REWARDS": {
-          "MILESTONES": [
-            "0"
-          ],
-          "OFFSET": 1,
-          "DISTANCE": 1
-        }
-      }
-    },
-    "leasehold_http_api": {
-      "modulePath": "node_modules/leasehold-http-api",
-      "chainModuleAlias": "leasehold_chain",
-      "httpPort": 7010,
-      "access": {
-        "public": true
-      },
-      "forging": {
-        "access": {
-          "whiteList": ["127.0.0.1"]
-        }
-      }
-    },
     "ldem_lisk_chain": {
       "modulePath": "node_modules/ldem-lisk-chain",
       "networkName": "testnet",
@@ -211,6 +183,34 @@
     "ldem_lisk_http_api": {
       "modulePath": "node_modules/ldem-lisk-http-api",
       "httpPort": 7000,
+      "access": {
+        "public": true
+      },
+      "forging": {
+        "access": {
+          "whiteList": ["127.0.0.1"]
+        }
+      }
+    },
+    "leasehold_chain": {
+      "modulePath": "node_modules/leasehold-chain",
+      "networkName": "testnet",
+      "database": "leasehold_test",
+      "constants": {
+        "ACTIVE_DELEGATES": 39,
+        "REWARDS": {
+          "MILESTONES": [
+            "0"
+          ],
+          "OFFSET": 1,
+          "DISTANCE": 1
+        }
+      }
+    },
+    "leasehold_http_api": {
+      "modulePath": "node_modules/leasehold-http-api",
+      "chainModuleAlias": "leasehold_chain",
+      "httpPort": 7010,
       "access": {
         "public": true
       },
