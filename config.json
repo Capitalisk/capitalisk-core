@@ -220,7 +220,7 @@
         }
       }
     },
-    "ldex": {
+    "lisk_dex_lsh_lsk": {
       "modulePath": "node_modules/lisk-dex",
       "passiveMode": false,
       "signatureBroadcastDelay": 15000,
