@@ -102,8 +102,39 @@
     "http_api": "ldem_lisk_http_api"
   },
   "modules": {
-    "leasehold_app": {},
-    "leasehold_net": {},
+    "leasehold_app": {
+      "nodeInfo": {
+        "version": "1.0.4",
+        "protocolVersion": "1.1",
+        "nethash": "da3ed6a45429278bac2666961289ca17ad86595d33b31037615d4b8e8f158bba",
+        "broadhash": "da3ed6a45429278bac2666961289ca17ad86595d33b31037615d4b8e8f158bba"
+      }
+    },
+    "leasehold_net": {
+      "wsPort": 7001,
+      "seedPeers": [
+        {
+          "ip": "18.212.59.239",
+          "wsPort": 7001
+        },
+        {
+          "ip": "3.93.232.78",
+          "wsPort": 7001
+        },
+        {
+          "ip": "testnet-seed-03.lisk.io",
+          "wsPort": 7001
+        },
+        {
+          "ip": "testnet-seed-04.lisk-nodes.net",
+          "wsPort": 7001
+        },
+        {
+          "ip": "testnet-seed-05.lisk.io",
+          "wsPort": 7001
+        }
+      ]
+    },
     "ldem_lisk_chain": {
       "modulePath": "node_modules/ldem-lisk-chain",
       "networkName": "testnet",
