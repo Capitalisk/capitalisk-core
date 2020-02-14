@@ -1,5 +1,6 @@
 {
   "base": {
+    "ipcTimeout": 20000,
     "components": {
       "logger": {
         "logFileName": "logs/testnet/lisk.log",
