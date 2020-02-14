@@ -194,7 +194,7 @@
     },
     "leasehold_chain": {
       "modulePath": "node_modules/leasehold-chain",
-      "networkName": "testnet",
+      "genesisBlockPath": "./genesis/testnet/genesis_block.json",
       "database": "leasehold_test",
       "constants": {
         "ACTIVE_DELEGATES": 39,
