@@ -253,6 +253,7 @@
       }
     },
     "lisk_dex_lsh_lsk": {
+      "moduleEnabled": false,
       "modulePath": "node_modules/lisk-dex",
       "passiveMode": false,
       "signatureBroadcastDelay": 15000,
@@ -312,6 +313,7 @@
       }
     },
     "lisk_dex_lsh_lsk_http_api": {
+      "moduleEnabled": false,
       "modulePath": "node_modules/lisk-dex-http-api",
       "port": 7011,
       "enableCORS": true,
