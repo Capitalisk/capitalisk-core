@@ -256,7 +256,7 @@
       "moduleEnabled": false,
       "modulePath": "node_modules/lisk-dex",
       "passiveMode": false,
-      "dexEnabledFromHeight": 0,
+      "dexEnabledFromHeight": 10185000,
       "signatureBroadcastDelay": 15000,
       "transactionSubmitDelay": 5000,
       "multisigExpiry": 86400000,
