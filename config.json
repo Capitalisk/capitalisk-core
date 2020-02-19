@@ -9,6 +9,10 @@
       },
       "storage": {
         "database": "lisk_test",
+        "host": "localhost",
+        "port": 5432,
+        "user": "lisk",
+        "password": "password",
         "logFileName": "logs/testnet/lisk_db.log"
       },
       "cache": {}
@@ -114,11 +118,7 @@
       "wsPort": 7001,
       "seedPeers": [
         {
-          "ip": "18.212.59.239",
-          "wsPort": 7001
-        },
-        {
-          "ip": "3.93.232.78",
+          "ip": "18.206.164.187",
           "wsPort": 7001
         },
         {
@@ -278,7 +278,6 @@
       },
       "chains": {
         "lsk": {
-          "database": "lisk_test",
           "moduleAlias": "ldem_lisk_chain",
           "walletAddress": "",
           "sharedPassphrase": "",
@@ -295,7 +294,6 @@
           "dexMovedToAddress": ""
         },
         "lsh": {
-          "database": "leasehold_test",
           "moduleAlias": "leasehold_chain",
           "walletAddress": "",
           "sharedPassphrase": "",
