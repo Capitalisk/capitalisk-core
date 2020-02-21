@@ -3,7 +3,7 @@
     "ipcTimeout": 60000,
     "components": {
       "logger": {
-        "logFileName": "logs/testnet/lisk.log",
+        "logFileName": "logs/testnet/lsh.log",
         "consoleLogLevel": "debug",
         "fileLogLevel": "error"
       },
@@ -13,7 +13,7 @@
         "port": 5432,
         "user": "leasehold",
         "password": "password",
-        "logFileName": "logs/testnet/lisk_db.log"
+        "logFileName": "logs/testnet/lsh_db.log"
       },
       "cache": {}
     },
