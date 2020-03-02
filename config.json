@@ -290,6 +290,10 @@
           "exchangeFeeBase": 10000000,
           "exchangeFeeRate": 0.001,
           "minOrderAmount": 1000000000,
+          "dividendStartHeight": 0,
+          "dividendHeightInterval": 60480,
+          "dividendHeightOffset": 303,
+          "dividendRate": 0.9,
           "dexDisabledFromHeight": null,
           "dexMovedToAddress": ""
         },
@@ -306,6 +310,10 @@
           "exchangeFeeBase": 10000000,
           "exchangeFeeRate": 0.001,
           "minOrderAmount": 1000000000,
+          "dividendStartHeight": 0,
+          "dividendHeightInterval": 60480,
+          "dividendHeightOffset": 303,
+          "dividendRate": 0.9,
           "dexDisabledFromHeight": null,
           "dexMovedToAddress": ""
         }
