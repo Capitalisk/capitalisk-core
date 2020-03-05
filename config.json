@@ -1,6 +1,10 @@
 {
   "base": {
     "ipcTimeout": 60000,
+    "moduleRedirects": {
+      "chain": "ldem_lisk_chain",
+      "http_api": "ldem_lisk_http_api"
+    },
     "components": {
       "logger": {
         "logFileName": "logs/testnet/lsh.log",
@@ -100,10 +104,6 @@
       "duplicatedSignatures": {},
       "transactionWithNullByte": []
     }
-  },
-  "redirects": {
-    "chain": "ldem_lisk_chain",
-    "http_api": "ldem_lisk_http_api"
   },
   "modules": {
     "leasehold_app": {
