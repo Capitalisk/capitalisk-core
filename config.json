@@ -7,17 +7,17 @@
     },
     "components": {
       "logger": {
-        "logFileName": "logs/testnet/lsh.log",
-        "consoleLogLevel": "debug",
+        "logFileName": "logs/mainnet/lsh.log",
+        "consoleLogLevel": "error",
         "fileLogLevel": "error"
       },
       "storage": {
-        "database": "lisk_test",
+        "database": "lisk_main",
         "host": "localhost",
         "port": 5432,
         "user": "leasehold",
         "password": "password",
-        "logFileName": "logs/testnet/lsh_db.log"
+        "logFileName": "logs/mainnet/lsh_db.log"
       },
       "cache": {}
     },
@@ -108,37 +108,53 @@
   "modules": {
     "leasehold_app": {
       "nodeInfo": {
-        "version": "1.0.4",
+        "version": "2.0.0",
         "protocolVersion": "1.1",
-        "nethash": "da3ed6a45429278bac2666961289ca17ad86595d33b31037615d4b8e8f158bba",
-        "broadhash": "da3ed6a45429278bac2666961289ca17ad86595d33b31037615d4b8e8f158bba"
+        "nethash": "ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511",
+        "broadhash": "ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511"
       }
     },
     "leasehold_net": {
-      "wsPort": 7001,
+      "wsPort": 8001,
       "seedPeers": [
         {
-          "ip": "18.206.164.187",
-          "wsPort": 7001
+          "ip": "18.212.171.167",
+          "wsPort": 8001
         },
         {
-          "ip": "testnet-seed-03.lisk.io",
-          "wsPort": 7001
+          "ip": "mainnet-seed-01.lisk.io",
+          "wsPort": 8001
         },
         {
-          "ip": "testnet-seed-04.lisk-nodes.net",
-          "wsPort": 7001
+          "ip": "mainnet-seed-02.lisk-nodes.net",
+          "wsPort": 8001
         },
         {
-          "ip": "testnet-seed-05.lisk.io",
-          "wsPort": 7001
+          "ip": "mainnet-seed-03.lisk.io",
+          "wsPort": 8001
+        },
+        {
+          "ip": "mainnet-seed-04.lisk-nodes.net",
+          "wsPort": 8001
+        },
+        {
+          "ip": "mainnet-seed-05.lisk.io",
+          "wsPort": 8001
+        },
+        {
+          "ip": "mainnet-seed-06.lisk-nodes.net",
+          "wsPort": 8001
+        },
+        {
+          "ip": "mainnet-seed-07.lisk.io",
+          "wsPort": 8001
         }
       ]
     },
     "ldem_lisk_chain": {
       "modulePath": "node_modules/ldem-lisk-chain",
-      "networkName": "testnet",
-      "database": "lisk_test",
+      "networkName": "mainnet",
+      "database": "lisk_main",
       "exceptions": {
         "blockRewards": [
           "11807740622680299921",
@@ -214,7 +230,7 @@
     },
     "ldem_lisk_http_api": {
       "modulePath": "node_modules/ldem-lisk-http-api",
-      "httpPort": 7000,
+      "httpPort": 8000,
       "access": {
         "public": true
       },
@@ -226,8 +242,8 @@
     },
     "leasehold_chain": {
       "modulePath": "node_modules/leasehold-chain",
-      "genesisBlockPath": "./genesis/testnet/genesis_block.json",
-      "database": "leasehold_test",
+      "genesisBlockPath": "./genesis/mainnet/genesis_block.json",
+      "database": "leasehold_main",
       "constants": {
         "ACTIVE_DELEGATES": 39,
         "REWARDS": {
@@ -242,7 +258,7 @@
     "leasehold_http_api": {
       "modulePath": "node_modules/leasehold-http-api",
       "chainModuleAlias": "leasehold_chain",
-      "httpPort": 7010,
+      "httpPort": 8010,
       "access": {
         "public": true
       },
@@ -322,7 +338,7 @@
     "lisk_dex_lsh_lsk_http_api": {
       "moduleEnabled": false,
       "modulePath": "node_modules/lisk-dex-http-api",
-      "port": 7011,
+      "port": 8011,
       "enableCORS": true,
       "dexModuleAlias": "lisk_dex_lsh_lsk",
       "components": {

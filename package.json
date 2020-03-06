@@ -1,6 +1,6 @@
 {
   "name": "leasehold-core",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A full Leasehold node implementation",
   "main": "index.js",
   "scripts": {
