@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Leasehold/leasehold-core#readme",
   "dependencies": {
-    "ldem": "^2.1.2",
+    "ldem": "^2.2.0",
     "ldem-lisk-chain": "^1.1.2",
     "ldem-lisk-http-api": "^1.0.2",
     "leasehold-chain": "^1.5.0",
