@@ -18,5 +18,7 @@ Under root:
 `usermod -aG sudo leasehold`
 `su - leasehold`
 `bash <(wget -q -O- https://raw.githubusercontent.com/Leasehold/Downloads/master/install_lsh_core.sh) -n testnet/mainnet`
+
 OR for a DEX node:
+
 `bash <(wget -q -O- https://raw.githubusercontent.com/Leasehold/Downloads/master/install_lsh_core.sh) -n testnet/mainnet -t dex`
