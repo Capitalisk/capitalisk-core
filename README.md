@@ -8,3 +8,15 @@ Engine for running vertically scalable Lisk and Leasehold-based nodes and DEX ma
 - Custom `lisk-dex` markets can be launched between any two running blockchains using only config changes - This allows any sidechain to be instantly tradable.
 - The network module can also be duplicated using only config changes for maximum node resilience.
 - Module crashes are isolated from each other.
+
+
+## Installation
+
+Under root:
+
+adduser leasehold
+usermod -aG sudo leasehold
+su - leasehold
+bash <(wget -q -O- https://raw.githubusercontent.com/Leasehold/Downloads/master/install_lsh_core.sh) -n testnet/mainnet
+OR
+bash <(wget -q -O- https://raw.githubusercontent.com/Leasehold/Downloads/master/install_lsh_core.sh) -n testnet/mainnet -t dex
