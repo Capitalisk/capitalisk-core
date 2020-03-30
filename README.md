@@ -10,7 +10,7 @@ Engine for running vertically scalable Lisk and Leasehold-based nodes and DEX ma
 - Module crashes are isolated from each other.
 
 
-## Installation
+## Installation (Ubuntu 16.x & Ubuntu 18.x)
 
 Under root:
 
