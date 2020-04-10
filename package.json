@@ -26,7 +26,7 @@
     "ldem": "^2.2.5",
     "ldem-lisk-chain": "^1.1.2",
     "ldem-lisk-http-api": "^1.0.2",
-    "leasehold-chain": "^2.0.0",
+    "leasehold-chain": "^2.0.1",
     "leasehold-http-api": "^2.1.3",
     "lisk-dex": "^8.4.1",
     "lisk-dex-http-api": "^3.0.2",
