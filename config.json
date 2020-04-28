@@ -116,6 +116,8 @@
     },
     "leasehold_net": {
       "wsPort": 8001,
+      "wsMaxPayload": 400000,
+      "maxPeerInfoSize": 20000,
       "seedPeers": [
         {
           "ip": "18.212.171.167",
