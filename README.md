@@ -12,13 +12,12 @@ Engine for running vertically scalable Lisk and Leasehold-based nodes and DEX ma
 
 ## Installation (Ubuntu 16.x & Ubuntu 18.x)
 
-Under root:
 
-- `adduser leasehold`
-- `usermod -aG sudo leasehold`
-- `su - leasehold`
-- `bash <(wget -q -O- https://raw.githubusercontent.com/Leasehold/Downloads/master/install_lsh_core.sh) -n testnet/mainnet`
+- `sudo adduser leasehold`
+- `sudo usermod -aG sudo leasehold`
+- `sudo su - leasehold`
+- `bash <(wget -q -O- https://raw.githubusercontent.com/Leasehold/Downloads/master/install_lsh_core.sh) -n mainnet/testnet`
 
 OR for a DEX node:
 
-- `bash <(wget -q -O- https://raw.githubusercontent.com/Leasehold/Downloads/master/install_lsh_core.sh) -n testnet/mainnet -t dex`
+- `bash <(wget -q -O- https://raw.githubusercontent.com/Leasehold/Downloads/master/install_lsh_core.sh) -n mainnet/testnet -t dex`
