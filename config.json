@@ -116,7 +116,7 @@
     },
     "leasehold_net": {
       "wsPort": 8001,
-      "wsMaxPayload": 400000,
+      "wsMaxPayload": 2000000,
       "maxPeerInfoSize": 20000,
       "seedPeers": [
         {
