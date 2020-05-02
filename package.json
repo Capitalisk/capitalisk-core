@@ -1,6 +1,6 @@
 {
   "name": "leasehold-core",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A full Leasehold node implementation",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "leasehold-http-api": "^2.1.3",
     "lisk-dex": "^8.5.0",
     "lisk-dex-http-api": "^3.0.2",
+    "lp2p": "^0.3.8",
     "object-assign-deep": "^0.4.0"
   }
 }
