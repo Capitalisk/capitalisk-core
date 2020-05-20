@@ -1,0 +1,11 @@
+{
+  "id": "price-decimal-precision",
+  "type": "module",
+  "target": "lisk_dex_lsh_lsk",
+  "criteria": {
+    "baseChainHeight": 10871900
+  },
+  "change": {
+    "priceDecimalPrecision": 2
+  }
+}
