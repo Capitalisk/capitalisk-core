@@ -1,0 +1,11 @@
+{
+  "id": "show-maker-count",
+  "type": "module",
+  "target": "lisk_dex_lsh_lsk",
+  "criteria": {
+    "baseChainHeight": 10863260
+  },
+  "change": {
+    "showMakerCountInTransfers": true
+  }
+}
