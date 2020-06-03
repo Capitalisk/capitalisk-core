@@ -275,7 +275,7 @@
       "moduleEnabled": false,
       "modulePath": "node_modules/lisk-dex",
       "passiveMode": false,
-      "dexEnabledFromHeight": 10185000,
+      "dexEnabledFromHeight": 12449215,
       "signatureBroadcastDelay": 15000,
       "transactionSubmitDelay": 5000,
       "multisigExpiry": 86400000,
@@ -291,8 +291,8 @@
       "readBlocksInterval": 3000,
       "components": {
         "logger": {
-          "fileLogLevel": "debug",
-          "consoleLogLevel": "debug"
+          "fileLogLevel": "error",
+          "consoleLogLevel": "error"
         }
       },
       "chains": {
@@ -346,8 +346,8 @@
       "dexModuleAlias": "lisk_dex_lsh_lsk",
       "components": {
         "logger": {
-          "fileLogLevel": "debug",
-          "consoleLogLevel": "debug"
+          "fileLogLevel": "error",
+          "consoleLogLevel": "error"
         }
       }
     }
