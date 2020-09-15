@@ -315,7 +315,8 @@
           "dividendHeightOffset": 303,
           "dividendRate": 0.9,
           "dexDisabledFromHeight": null,
-          "dexMovedToAddress": ""
+          "dexMovedToAddress": "",
+          "minPartialTake": 100000000
         },
         "lsh": {
           "moduleAlias": "leasehold_chain",
@@ -335,7 +336,8 @@
           "dividendHeightOffset": 303,
           "dividendRate": 0.9,
           "dexDisabledFromHeight": null,
-          "dexMovedToAddress": ""
+          "dexMovedToAddress": "",
+          "minPartialTake": 100000000
         }
       }
     },
