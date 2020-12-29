@@ -1,6 +1,6 @@
 {
   "name": "leasehold-core",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "description": "A full Leasehold node implementation",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,12 @@
   "homepage": "https://github.com/Leasehold/leasehold-core#readme",
   "dependencies": {
     "ldem": "^4.0.1",
-    "ldem-lisk-chain": "^2.1.0",
+    "ldem-lisk-chain": "^3.0.0",
     "ldem-lisk-http-api": "^1.0.2",
-    "leasehold-chain": "^3.1.0",
+    "leasehold-chain": "^4.0.0",
     "leasehold-http-api": "^2.1.4",
-    "lisk-dex": "^9.4.2",
-    "lisk-dex-http-api": "^5.0.0",
+    "lisk-dex": "^10.0.0",
+    "lisk-dex-http-api": "^6.0.0",
     "object-assign-deep": "^0.4.0"
   }
 }
