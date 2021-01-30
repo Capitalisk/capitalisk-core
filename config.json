@@ -301,6 +301,7 @@
       "chains": {
         "lsk": {
           "moduleAlias": "ldem_lisk_chain",
+          "useBlocksChangeChannel": true,
           "walletAddress": "",
           "sharedPassphrase": "",
           "passphrase": "",
@@ -322,6 +323,7 @@
         },
         "lsh": {
           "moduleAlias": "leasehold_chain",
+          "useBlocksChangeChannel": true,
           "walletAddress": "",
           "sharedPassphrase": "",
           "passphrase": "",
