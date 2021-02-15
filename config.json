@@ -1,6 +1,6 @@
 {
   "base": {
-    "ipcTimeout": 60000,
+    "ipcTimeout": 120000,
     "moduleRedirects": {
       "chain": "ldem_lisk_chain",
       "http_api": "ldem_lisk_http_api"
