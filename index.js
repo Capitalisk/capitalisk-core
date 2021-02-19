@@ -6,7 +6,6 @@ const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 const unlink = util.promisify(fs.unlink);
 const LDEM = require('ldem');
-const objectAssignDeep = require('object-assign-deep');
 const argv = require('minimist')(process.argv.slice(2));
 
 const CWD = process.cwd();

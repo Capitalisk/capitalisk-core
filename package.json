@@ -1,17 +1,17 @@
 {
-  "name": "leasehold-core",
-  "version": "6.0.4",
-  "description": "A full Leasehold node implementation",
+  "name": "capitalisk-core",
+  "version": "1.0.0",
+  "description": "A full Capitalisk node implementation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leasehold/leasehold-core.git"
+    "url": "git+https://github.com/Leasehold/capitalisk-core.git"
   },
   "keywords": [
-    "leasehold",
+    "capitalisk",
     "lisk",
     "node",
     "dex"
@@ -19,17 +19,14 @@
   "author": "Jonathan Gros-Dubois",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Leasehold/leasehold-core/issues"
+    "url": "https://github.com/Leasehold/capitalisk-core/issues"
   },
-  "homepage": "https://github.com/Leasehold/leasehold-core#readme",
+  "homepage": "https://github.com/Leasehold/capitalisk-core#readme",
   "dependencies": {
     "ldem": "^5.1.1",
-    "ldem-lisk-chain": "^3.1.1",
-    "ldem-lisk-http-api": "^1.0.2",
-    "leasehold-chain": "^4.1.0",
-    "leasehold-http-api": "^2.1.4",
+    "ldpos-chain": "^2.0.6",
+    "ldpos-knex-dal": "^1.2.2",
     "lisk-dex": "^11.2.4",
-    "lisk-dex-http-api": "^6.0.0",
-    "object-assign-deep": "^0.4.0"
+    "lisk-dex-http-api": "^6.0.0"
   }
 }

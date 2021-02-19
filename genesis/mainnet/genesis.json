@@ -1,0 +1,17 @@
+{
+  "networkSymbol": "ldpos",
+  "accounts": [
+    {
+      "address": "ldposa0df33daaf3b5dc12344037c44f8203f5a9d8714",
+      "type": "sig",
+      "forgingPublicKey": "8b02f5b0943c36ceb527c08d87e25c16a8a7158a5a09b15b59b6cb9d1545aff5",
+      "nextForgingKeyIndex": 0,
+      "multisigPublicKey": "11f2fb53093513d689932e904c89340a091f22268385aea2fd85415375bd2b0a",
+      "nextMultisigKeyIndex": 0,
+      "sigPublicKey": "a0df33daaf3b5dc12344037c44f8203f5a9d8714015483276973986da10a5fd4",
+      "nextSigKeyIndex": 0,
+      "balance": "10000000000000000",
+      "votes": ["ldposa0df33daaf3b5dc12344037c44f8203f5a9d8714"]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "components": {
       "logger": {
         "logFileName": "logs/mainnet/clsk.log",
-        "consoleLogLevel": "error",
+        "consoleLogLevel": "info",
         "fileLogLevel": "error"
       }
     }
@@ -15,12 +15,12 @@
       "nodeInfo": {
         "version": "2.0.0",
         "protocolVersion": "1.1",
-        "nethash": "ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511",
-        "broadhash": "ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511"
+        "nethash": "da3ed6a45429278bac2666961289ca17ad86595d33b31037615d4b8e8f158bba",
+        "broadhash": "da3ed6a45429278bac2666961289ca17ad86595d33b31037615d4b8e8f158bba"
       }
     },
     "leasehold_net": {
-      "wsPort": 8001,
+      "wsPort": 7001,
       "wsMaxMessageRate": 400,
       "wsMaxMessageRatePenalty": 100,
       "wsMaxPayloadInbound": 200000,
@@ -29,27 +29,11 @@
       "seedPeers": [
         {
           "ip": "34.227.22.98",
-          "wsPort": 8001
+          "wsPort": 7001
         },
         {
           "ip": "18.206.164.187",
-          "wsPort": 8001
-        },
-        {
-          "ip": "mainnet-seed-01.lisk.io",
-          "wsPort": 8001
-        },
-        {
-          "ip": "mainnet-seed-02.lisk-nodes.net",
-          "wsPort": 8001
-        },
-        {
-          "ip": "mainnet-seed-03.lisk.io",
-          "wsPort": 8001
-        },
-        {
-          "ip": "mainnet-seed-04.lisk-nodes.net",
-          "wsPort": 8001
+          "wsPort": 7001
         }
       ]
     },
@@ -63,7 +47,7 @@
             "host": "127.0.0.1",
             "user" : "ldpos",
             "password" : "ldpos",
-            "database" : "capitalisk_main",
+            "database" : "capitalisk_test",
             "port": "5432"
           }
         }
