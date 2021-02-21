@@ -1,17 +1,58 @@
 {
-  "networkSymbol": "ldpos",
+  "networkSymbol": "clsk",
   "accounts": [
     {
-      "address": "ldpos313ac2d3d1d081901be0c5ce074d1e81a8a0bf5f",
+      "address": "clskbde48efe4fb34f91f3bfad4e4e8feb081b302b0f",
       "type": "sig",
-      "forgingPublicKey": "65afbf3e6e0f1b99bd595852ab59e9d54cd6ebffad3fb3608d6f084534938757",
+      "forgingPublicKey": "1655f5dde0be8da54d05f5ab0b380467e10f6c963fe375150b889771859aec9b",
       "nextForgingKeyIndex": 0,
-      "multisigPublicKey": "9cd1cb3923eaf015762a6a2c44f224004060f60e4b12c27f61489685742e1c11",
+      "multisigPublicKey": "35e8dd3f95ea5b7f71cc8fb585c55112a052c05d1aca6246cad863d804ddcaee",
       "nextMultisigKeyIndex": 0,
-      "sigPublicKey": "313ac2d3d1d081901be0c5ce074d1e81a8a0bf5fe29515ac2d349cfa2f5b3b10",
+      "sigPublicKey": "bde48efe4fb34f91f3bfad4e4e8feb081b302b0fee0ea45a2603499abf076402",
       "nextSigKeyIndex": 0,
       "balance": "10000000000000000",
-      "votes": ["ldpos313ac2d3d1d081901be0c5ce074d1e81a8a0bf5f"]
+      "votes": ["clskbde48efe4fb34f91f3bfad4e4e8feb081b302b0f"]
+    },
+    {
+      "address": "clskd98aa045ac36d9193cbcca060b8a8b0f1862aae2",
+      "type": "sig",
+      "forgingPublicKey": "3b92ccbfebc403a5bbb268e4eae8cfc99dd31ed7b8c107990e2c1407f8160286",
+      "nextForgingKeyIndex": 0,
+      "multisigPublicKey": "a9eb6c750aae9accbb4f450f674e6173972cc231deed9b5953d3564947f96c80",
+      "nextMultisigKeyIndex": 0,
+      "sigPublicKey": "d98aa045ac36d9193cbcca060b8a8b0f1862aae2fd4f665f8427074b9d4aefe2",
+      "nextSigKeyIndex": 0,
+      "balance": "100000000000",
+      "votes": ["clskbde48efe4fb34f91f3bfad4e4e8feb081b302b0f"]
+    },
+    {
+      "address": "clskbc84c66b69477c2160ef2eb5c92579840fa0ef3f",
+      "type": "sig",
+      "forgingPublicKey": "da051df989a54c6dae431e552807c24a4c7b2e15b1e0d8c87005a3b4e599fea3",
+      "nextForgingKeyIndex": 0,
+      "multisigPublicKey": "892a28838fe70361335ed9416830a70b13c4f558461730a0ea9ba3679abba099",
+      "nextMultisigKeyIndex": 0,
+      "sigPublicKey": "bc84c66b69477c2160ef2eb5c92579840fa0ef3f45c13ba540a6672f77020da6",
+      "nextSigKeyIndex": 0,
+      "balance": "200000000000",
+      "votes": ["clskbde48efe4fb34f91f3bfad4e4e8feb081b302b0f"]
+    },
+    {
+      "address": "clskb231cb14eff2e98c72ebae22fcf06c1e1a6f08fd",
+      "type": "multisig",
+      "forgingPublicKey": "c7b2c198c5e2fc05911c83cffa7bd3ea66cec6d08759c8030929fc1057d749d0",
+      "nextForgingKeyIndex": 0,
+      "sigPublicKey": "b231cb14eff2e98c72ebae22fcf06c1e1a6f08fd88f8318061ec6a53ef2191bc",
+      "nextSigKeyIndex": 0,
+      "balance": "300000000000",
+      "votes": ["clskbde48efe4fb34f91f3bfad4e4e8feb081b302b0f"]
+    }
+  ],
+  "multisigWallets": [
+    {
+      "address": "clskb231cb14eff2e98c72ebae22fcf06c1e1a6f08fd",
+      "requiredSignatureCount": 2,
+      "members": ["clskd98aa045ac36d9193cbcca060b8a8b0f1862aae2", "clskbc84c66b69477c2160ef2eb5c92579840fa0ef3f"]
     }
   ]
 }
