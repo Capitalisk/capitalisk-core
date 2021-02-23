@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leasehold/capitalisk-core.git"
+    "url": "git+https://github.com/Capitalisk/capitalisk-core.git"
   },
   "keywords": [
     "capitalisk",
@@ -19,9 +19,9 @@
   "author": "Jonathan Gros-Dubois",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Leasehold/capitalisk-core/issues"
+    "url": "https://github.com/Capitalisk/capitalisk-core/issues"
   },
-  "homepage": "https://github.com/Leasehold/capitalisk-core#readme",
+  "homepage": "https://github.com/Capitalisk/capitalisk-core#readme",
   "dependencies": {
     "ldem": "^5.1.1",
     "ldpos-chain": "^2.0.6",
