@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Capitalisk/capitalisk-core#readme",
   "dependencies": {
     "ldem": "^5.1.1",
-    "ldpos-chain": "^2.0.6",
+    "ldpos-chain": "^2.1.2",
     "ldpos-knex-dal": "^1.2.2",
     "lisk-dex": "^11.2.7",
     "lisk-dex-http-api": "^6.0.0"
