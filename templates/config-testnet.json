@@ -39,7 +39,7 @@
     },
     "capitalisk_chain": {
       "modulePath": "node_modules/ldpos-chain",
-      "genesisPath": "../../genesis/mainnet/genesis.json",
+      "genesisPath": "../../genesis/testnet/genesis.json",
       "components": {
         "dal": {
           "libPath": "../ldpos-knex-dal",
