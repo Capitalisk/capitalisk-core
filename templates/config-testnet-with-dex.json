@@ -1,0 +1,136 @@
+{
+  "base": {
+    "ipcTimeout": 120000,
+    "moduleRedirects": {},
+    "components": {
+      "logger": {
+        "logFileName": "logs/mainnet/clsk.log",
+        "consoleLogLevel": "info",
+        "fileLogLevel": "error"
+      }
+    }
+  },
+  "modules": {
+    "leasehold_app": {
+      "nodeInfo": {
+        "version": "2.0.0",
+        "protocolVersion": "1.1",
+        "nethash": "da3ed6a45429278bac2666961289ca17ad86595d33b31037615d4b8e8f158bba",
+        "broadhash": "da3ed6a45429278bac2666961289ca17ad86595d33b31037615d4b8e8f158bba"
+      }
+    },
+    "leasehold_net": {
+      "wsPort": 7001,
+      "wsMaxMessageRate": 400,
+      "wsMaxMessageRatePenalty": 100,
+      "wsMaxPayloadInbound": 200000,
+      "wsMaxPayloadOutbound": 3000000,
+      "maxPeerInfoSize": 20000,
+      "seedPeers": [
+        {
+          "ip": "34.227.22.98",
+          "wsPort": 7001
+        },
+        {
+          "ip": "18.206.164.187",
+          "wsPort": 7001
+        }
+      ]
+    },
+    "capitalisk_chain": {
+      "modulePath": "node_modules/ldpos-chain",
+      "genesisPath": "../../genesis/testnet/genesis.json",
+      "components": {
+        "dal": {
+          "libPath": "../ldpos-knex-dal",
+          "connection": {
+            "host": "127.0.0.1",
+            "user" : "ldpos",
+            "password" : "ldpos",
+            "database" : "capitalisk_test",
+            "port": "5432"
+          }
+        }
+      }
+    },
+    "lisk_dex_clsk_lsk": {
+      "moduleEnabled": true,
+      "modulePath": "node_modules/lisk-dex",
+      "passiveMode": false,
+      "dexEnabledFromHeight": 1,
+      "signatureBroadcastDelay": 15000,
+      "transactionSubmitDelay": 15000,
+      "multisigExpiry": 86400000,
+      "multisigExpiryCheckInterval": 60000,
+      "orderBookSnapshotFinality": 101,
+      "orderBookSnapshotFilePath": "./dex-snapshot-clsk-lsk.json",
+      "orderBookSnapshotBackupDirPath": "./dex-snapshot-clsk-lsk-backups",
+      "orderBookSnapshotBackupMaxCount": 20,
+      "baseChain": "lsk",
+      "priceDecimalPrecision": 4,
+      "apiDefaultPageLimit": 100,
+      "apiMaxPageLimit": 100,
+      "apiMaxFilterFields": 10,
+      "readBlocksInterval": 3000,
+      "components": {
+        "logger": {
+          "fileLogLevel": "error",
+          "consoleLogLevel": "error"
+        }
+      },
+      "chains": {
+        "lsk": {
+          "moduleAlias": "ldem_lisk_chain",
+          "useBlocksChangeChannel": true,
+          "walletAddress": "",
+          "sharedPassphrase": "",
+          "passphrase": "",
+          "requiredConfirmations": 2,
+          "orderHeightExpiry": 259200,
+          "readMaxBlocks": 1000,
+          "exchangeFeeBase": "10000000",
+          "exchangeFeeRate": 0.001,
+          "minOrderAmount": "1000000000",
+          "dividendStartHeight": 0,
+          "dividendHeightInterval": 60480,
+          "dividendHeightOffset": 303,
+          "dividendRate": 0.9,
+          "dexDisabledFromHeight": null,
+          "dexMovedToAddress": "",
+          "minPartialTake": "100000000"
+        },
+        "clsk": {
+          "moduleAlias": "capitalisk_chain",
+          "walletAddress": "",
+          "passphrase": "",
+          "requiredConfirmations": 0,
+          "orderHeightExpiry": 259200,
+          "readMaxBlocks": 1000,
+          "exchangeFeeBase": "11000000",
+          "exchangeFeeRate": 0.001,
+          "minOrderAmount": "1000000000",
+          "dividendStartHeight": 0,
+          "dividendHeightInterval": 60480,
+          "dividendHeightOffset": 101,
+          "dividendRate": 0.9,
+          "dexDisabledFromHeight": null,
+          "dexMovedToAddress": "",
+          "minPartialTake": "100000000"
+        }
+      }
+    },
+    "lisk_dex_clsk_lsk_http_api": {
+      "moduleEnabled": true,
+      "modulePath": "node_modules/lisk-dex-http-api",
+      "port": 9011,
+      "enableCORS": true,
+      "dexModuleAlias": "lisk_dex_clsk_lsk",
+      "components": {
+        "logger": {
+          "fileLogLevel": "error",
+          "consoleLogLevel": "error"
+        }
+      }
+    }
+  }
+}
