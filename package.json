@@ -4,7 +4,8 @@
   "description": "A full Capitalisk node implementation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postgresql": "docker run --name capitalisk_main -e POSTGRES_DB=capitalisk_main -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres",
+    "createdb": "createdb demo -h 172.17.0.2 -U postgres"
   },
   "repository": {
     "type": "git",
