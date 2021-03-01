@@ -8,6 +8,7 @@
     "postgres:createdb": "createdb capitalisk_main -h 172.17.0.2 -U postgres",
     "docker:build": "docker build -t capitalisk .",
     "docker:run": "docker run -d -p 7010:7010 -p 7001:7001 -p 5432:5432 --name capitalisk-core capitalisk",
+    "docker:compose": "docker-compose up -d",
   },
   "repository": {
     "type": "git",
