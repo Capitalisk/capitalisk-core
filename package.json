@@ -4,10 +4,10 @@
   "description": "A full Capitalisk node implementation",
   "main": "index.js",
   "scripts": {
-    "postgres:startdb": "docker run --name capitalisk_main -p 5432:5432 -e POSTGRES_PASSWORD=ldpos -e POSTGRES_USER=ldpos -d postgres",
+    "postgres:startdb": "docker run --name capitalisk_main --restart always -p 5432:5432 -e POSTGRES_PASSWORD=ldpos -e POSTGRES_USER=ldpos -d postgres",
     "postgres:createdb": "createdb capitalisk_main -h 172.17.0.2 -U ldpos",
     "docker:build": "docker build -t capitalisk .",
-    "docker:run": "docker run -d -p 7010:7010 -p 7001:7001 -p 5432:5432 --name capitalisk-core capitalisk",
+    "docker:run": "docker run -d -p 7010:7010 -p 7001:7001 --name capitalisk-core --restart always capitalisk",
     "docker:compose": "docker-compose up -d"
   },
   "repository": {
