@@ -11,6 +11,8 @@ services:
     image: "posgres"
     restart: always
     environment:
-      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_PASSWORD: ldpos
+      POSTGRES_USER: ldpos
+      POSTGRES_DB: capitalisk_main
     ports:
       - "5432:5432"
