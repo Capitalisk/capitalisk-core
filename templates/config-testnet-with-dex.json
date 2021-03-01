@@ -122,7 +122,7 @@
     "lisk_dex_clsk_lsk_http_api": {
       "moduleEnabled": true,
       "modulePath": "node_modules/lisk-dex-http-api",
-      "port": 9011,
+      "port": 8021,
       "enableCORS": true,
       "dexModuleAlias": "lisk_dex_clsk_lsk",
       "components": {

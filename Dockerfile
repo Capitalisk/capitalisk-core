@@ -7,7 +7,7 @@ WORKDIR /capitalisk-core
 
 RUN npm install
 
-EXPOSE 7001
-EXPOSE 7010
+EXPOSE 8001
+EXPOSE 8021
 
 CMD ["node", "index.js"]
