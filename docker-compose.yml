@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  capitalisk-core:
+    build: .
+    restart: always
+    ports:
+      - "7010:7010"
+      - "7001:7001"
+
+  postgres:
+    image: "postgres"
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ldpos
+      POSTGRES_USER: ldpos
+      POSTGRES_DB: capitalisk_main
+    ports:
+      - "5432:5432"
