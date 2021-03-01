@@ -82,7 +82,7 @@
         "lsk": {
           "moduleAlias": "ldem_lisk_chain",
           "useBlocksChangeChannel": true,
-          "walletAddress": "",
+          "multisigAddress": "",
           "sharedPassphrase": "",
           "passphrase": "",
           "requiredConfirmations": 2,
@@ -101,7 +101,7 @@
         },
         "clsk": {
           "moduleAlias": "capitalisk_chain",
-          "walletAddress": "",
+          "multisigAddress": "",
           "passphrase": "",
           "requiredConfirmations": 0,
           "orderHeightExpiry": 259200,
