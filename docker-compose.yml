@@ -1,8 +1,10 @@
-version: "3.9"
+version: "3.3"
 services:
   capitalisk-core:
     build: .
     restart: always
+    depends_on:
+      - postgres
     ports:
       - "8001:8001"
 
