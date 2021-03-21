@@ -15,7 +15,7 @@
     "postgres:testnet:remove": "docker rm capitalisk_test",
     "postgres:testnet:reset": "yarn postgres:testnet:stop && yarn postgres:testnet:remove",
     "postgres:testnet:createdb": "createdb capitalisk_test -h $POSTGRES_HOST -U ldpos",
-    "start:docker:mainnet": "docker-compose up"
+    "docker:mainnet:start": "docker-compose up"
   },
   "repository": {
     "type": "git",
