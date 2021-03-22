@@ -37,3 +37,15 @@ yarn start postgres:testnet:start
 cat templates/config-testnet.json > config.json 
 yarn start
 ```
+- Wait for 5 mins for node to sync (Ignoring initial warnings/errors)
+
+2. Starting mainnet node
+- Documentation coming soon ...
+
+# Enabling logging for node
+- Log level can be changed under `logger` section.
+i.e. to error, info
+- Logger section can be added under `capitalisk_chain`.
+
+# Installing native postgres
+Follow https://www.postgresql.org/download/ to install postgres on the linux/windows/mac.
