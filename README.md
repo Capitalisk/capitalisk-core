@@ -30,7 +30,7 @@ nvm use
 - To install docker on linux follow - https://docs.docker.com/engine/install/ubuntu/
 - Starting postgres db
 ```shell script
-yarn start postgres:testnet:start
+yarn postgres:testnet:start
 ```
 - Overwrite testnet config from templates/config-testnet.json to root config.json & start the node
 ```shell script
