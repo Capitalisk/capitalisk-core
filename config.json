@@ -4,7 +4,7 @@
     "moduleRedirects": {},
     "components": {
       "logger": {
-        "logFileName": "logs/mainnet/clsk.log",
+        "logFileName": "logs/mainnet/default.log",
         "consoleLogLevel": "error",
         "fileLogLevel": "error"
       },
@@ -65,7 +65,14 @@
     },
     "capitalisk_chain": {
       "modulePath": "node_modules/ldpos-chain",
-      "genesisPath": "../../genesis/mainnet/genesis.json"
+      "genesisPath": "../../genesis/mainnet/genesis.json",
+      "components": {
+        "logger": {
+          "logFileName": "logs/mainnet/clsk.log",
+          "consoleLogLevel": "error",
+          "fileLogLevel": "error"
+        }
+      }
     }
   }
 }
