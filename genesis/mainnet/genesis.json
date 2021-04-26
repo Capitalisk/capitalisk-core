@@ -2,16 +2,16 @@
   "networkSymbol": "clsk",
   "accounts": [
     {
-      "address": "clsk6bb10feac06b011702b742be7c8bf1993b43e2c6",
+      "address": "clsk71bcc5cd9c8cf5dc2c79d235ed5f2393b5ad56cb",
       "type": "sig",
-      "forgingPublicKey": "522e24eaba19029cf13a4964aa4968a3eeca1b720171686684c5c2425a24bd5b",
+      "forgingPublicKey": "218a928a7c8c21f7820d3bb198e41d5175886891334f4cb900062a5acb880458",
       "nextForgingKeyIndex": 0,
-      "multisigPublicKey": "0462548405033ff3819f55a541160c4222ff1bf1603a3027dcb04e74be1fb1ab",
+      "multisigPublicKey": "4826718943ce648ce1999549179f85df45a2477c6a51f07c656c6dc18b6a9ddf",
       "nextMultisigKeyIndex": 0,
-      "sigPublicKey": "6bb10feac06b011702b742be7c8bf1993b43e2c6873110261ffb0233dfcf57a5",
+      "sigPublicKey": "71bcc5cd9c8cf5dc2c79d235ed5f2393b5ad56cb9b3f4b0102e7e32c804c0a5a",
       "nextSigKeyIndex": 0,
       "balance": "10000000000000000",
-      "votes": ["clsk6bb10feac06b011702b742be7c8bf1993b43e2c6"]
+      "votes": ["clsk71bcc5cd9c8cf5dc2c79d235ed5f2393b5ad56cb"]
     }
   ]
 }

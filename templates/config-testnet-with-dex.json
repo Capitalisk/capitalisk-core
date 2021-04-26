@@ -7,6 +7,16 @@
         "logFileName": "logs/mainnet/clsk.log",
         "consoleLogLevel": "info",
         "fileLogLevel": "error"
+      },
+      "dal": {
+        "libPath": "../ldpos-knex-dal",
+        "connection": {
+          "host": "127.0.0.1",
+          "user" : "postgres",
+          "password" : "password",
+          "database" : "capitalisk_test",
+          "port": "5432"
+        }
       }
     }
   },
@@ -39,19 +49,7 @@
     },
     "capitalisk_chain": {
       "modulePath": "node_modules/ldpos-chain",
-      "genesisPath": "../../genesis/testnet/genesis.json",
-      "components": {
-        "dal": {
-          "libPath": "../ldpos-knex-dal",
-          "connection": {
-            "host": "127.0.0.1",
-            "user" : "ldpos",
-            "password" : "ldpos",
-            "database" : "capitalisk_test",
-            "port": "5432"
-          }
-        }
-      }
+      "genesisPath": "../../genesis/testnet/genesis.json"
     },
     "lisk_dex_clsk_lsk": {
       "moduleEnabled": true,
