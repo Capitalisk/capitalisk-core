@@ -4,9 +4,19 @@
     "moduleRedirects": {},
     "components": {
       "logger": {
-        "logFileName": "logs/mainnet/clsk.log",
+        "logFileName": "logs/testnet/default.log",
         "consoleLogLevel": "info",
         "fileLogLevel": "error"
+      },
+      "dal": {
+        "libPath": "../ldpos-knex-dal",
+        "connection": {
+          "host": "127.0.0.1",
+          "user" : "postgres",
+          "password" : "password",
+          "database" : "capitalisk_test",
+          "port": "5432"
+        }
       }
     }
   },
@@ -41,15 +51,10 @@
       "modulePath": "node_modules/ldpos-chain",
       "genesisPath": "../../genesis/testnet/genesis.json",
       "components": {
-        "dal": {
-          "libPath": "../ldpos-knex-dal",
-          "connection": {
-            "host": "127.0.0.1",
-            "user" : "ldpos",
-            "password" : "ldpos",
-            "database" : "capitalisk_test",
-            "port": "5432"
-          }
+        "logger": {
+          "logFileName": "logs/testnet/clsk.log",
+          "consoleLogLevel": "error",
+          "fileLogLevel": "error"
         }
       }
     },
