@@ -148,7 +148,7 @@ npm install -g pm2
 
 - Launch node for sqlite 
 ```shell script
-pm2 start index.js --name "capitalisk-core-sqlite" -o "/dev/null" -e "/dev/null" --node-args="config.sqlite.json" 
+pm2 start index.js --name "capitalisk-core-sqlite" -o "/dev/null" -e "/dev/null" -- -c=config.sqlite.json 
 ```
 OR 
 
