@@ -1,4 +1,5 @@
 # Capitalisk Node
+- Standalone Capitalisk node. Built using [LDEM](https://github.com/jondubois/ldem).
 
 ## 1. Install Node.js
 
@@ -64,7 +65,7 @@ npm install
 
 ## 4.1 Installing SQLite
 - SQLite binaries are automatically installed as a part of `npm install` or `yarn install`.
-- Just make sure, no warning or error is thrown for while installing npm packages for `sqlite3`.
+- Just make sure, no warning or error is thrown while installing npm packages for `sqlite3`.
 
 ## 4.2 Install Postgres
 
