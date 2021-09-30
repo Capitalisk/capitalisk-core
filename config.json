@@ -44,22 +44,6 @@
         {
           "ip": "54.84.239.82",
           "wsPort": 8001
-        },
-        {
-          "ip": "mainnet-seed-01.lisk.io",
-          "wsPort": 8001
-        },
-        {
-          "ip": "mainnet-seed-02.lisk-nodes.net",
-          "wsPort": 8001
-        },
-        {
-          "ip": "mainnet-seed-03.lisk.io",
-          "wsPort": 8001
-        },
-        {
-          "ip": "mainnet-seed-04.lisk-nodes.net",
-          "wsPort": 8001
         }
       ]
     },
