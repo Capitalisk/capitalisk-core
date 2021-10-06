@@ -50,6 +50,10 @@
     "capitalisk_chain": {
       "modulePath": "node_modules/ldpos-chain",
       "genesisPath": "../../genesis/mainnet/clsk-genesis.json",
+      "geneses": {
+        "0": 2,
+        "76000": 5
+      },
       "components": {
         "logger": {
           "logFileName": "logs/mainnet/clsk.log",
