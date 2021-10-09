@@ -21,7 +21,7 @@
     }
   },
   "modules": {
-    "leasehold_app": {
+    "capitalisk_app": {
       "nodeInfo": {
         "version": "2.0.0",
         "protocolVersion": "1.1",
@@ -29,7 +29,7 @@
         "broadhash": "ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511"
       }
     },
-    "leasehold_net": {
+    "capitalisk_net": {
       "wsPort": 8001,
       "wsMaxMessageRate": 400,
       "wsMaxMessageRatePenalty": 100,
