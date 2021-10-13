@@ -1,6 +1,6 @@
 {
   "name": "capitalisk-core",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "A full Capitalisk node implementation",
   "main": "index.js",
   "scripts": {
