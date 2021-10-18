@@ -38,7 +38,7 @@
     "ldpos-chain": "^6.4.0",
     "ldpos-chain-crypto": "^4.0.0",
     "ldpos-knex-dal": "^4.4.1",
-    "lisk-dex": "^13.0.3",
+    "lisk-dex": "^13.1.0",
     "lisk-dex-http-api": "^6.0.0"
   }
 }
