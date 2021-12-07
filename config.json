@@ -33,7 +33,7 @@
       "wsPort": 8001,
       "wsMaxMessageRate": 400,
       "wsMaxMessageRatePenalty": 100,
-      "wsMaxPayloadInbound": 200000,
+      "wsMaxPayloadInbound": 1000000,
       "wsMaxPayloadOutbound": 3000000,
       "maxPeerInfoSize": 20000,
       "seedPeers": [
