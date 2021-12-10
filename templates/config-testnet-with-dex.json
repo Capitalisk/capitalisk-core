@@ -9,7 +9,7 @@
         "fileLogLevel": "error"
       },
       "dal": {
-        "libPath": "../ldpos-pg-dal",
+        "libPath": "node_modules/ldpos-pg-dal",
         "connection": {
           "host": "127.0.0.1",
           "user" : "postgres",
@@ -49,7 +49,7 @@
     },
     "capitalisk_chain": {
       "modulePath": "node_modules/ldpos-chain",
-      "genesisPath": "../../genesis/testnet/clsk-genesis.json",
+      "genesisPath": "genesis/testnet/clsk-genesis.json",
       "components": {
         "logger": {
           "logFileName": "logs/testnet/clsk.log",
@@ -68,8 +68,8 @@
       "multisigExpiry": 86400000,
       "multisigExpiryCheckInterval": 60000,
       "orderBookSnapshotFinality": 101,
-      "orderBookSnapshotFilePath": "./dex-snapshot-clsk-lsk.json",
-      "orderBookSnapshotBackupDirPath": "./dex-snapshot-clsk-lsk-backups",
+      "orderBookSnapshotFilePath": "dex-snapshot-clsk-lsk.json",
+      "orderBookSnapshotBackupDirPath": "dex-snapshot-clsk-lsk-backups",
       "orderBookSnapshotBackupMaxCount": 20,
       "baseChain": "lsk",
       "priceDecimalPrecision": 4,
