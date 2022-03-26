@@ -22,6 +22,8 @@
   },
   "modules": {
     "capitalisk_app": {
+      "defaultHTTPPort": 8000,
+      "defaultWSPort": 8001,
       "nodeInfo": {
         "version": "2.0.0",
         "protocolVersion": "1.1",
