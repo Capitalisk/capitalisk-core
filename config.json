@@ -1,6 +1,6 @@
 {
   "base": {
-    "ipcTimeout": 120000,
+    "ipcTimeout": 180000,
     "moduleRedirects": {},
     "components": {
       "logger": {
