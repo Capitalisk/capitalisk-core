@@ -4,18 +4,9 @@
   "description": "A full Capitalisk node implementation",
   "main": "index.js",
   "scripts": {
-    "postgres:start": "docker run --name capitalisk_main --restart always -p 5432:5432 -e POSTGRES_PASSWORD=ldpos -e POSTGRES_USER=ldpos -d postgres:13-alpine",
-    "postgres:stop": "docker stop capitalisk_main",
-    "postgres:remove": "docker rm capitalisk_main",
-    "postgres:createdb": "createdb capitalisk_main -h 172.17.0.2 -U ldpos",
-    "docker:build": "docker build -t capitalisk .",
-    "docker:run": "docker run -d -p 8021:8021 -p 8001:8001 --name capitalisk-core --restart always capitalisk",
-    "docker:compose": "docker-compose up -d",
-    "postgres:testnet:start": "docker run --name capitalisk_test --restart always -p 5432:5432 -e POSTGRES_PASSWORD=ldpos -e POSTGRES_USER=ldpos -d postgres:13-alpine",
-    "postgres:testnet:stop": "docker stop capitalisk_test",
-    "postgres:testnet:remove": "docker rm capitalisk_test",
-    "postgres:testnet:createdb": "createdb capitalisk_test -h 172.17.0.2 -U ldpos",
-    "docker:testnet:run": "docker run -d -p 7021:7021 -p 7001:7001 --name capitalisk-core --restart always capitalisk"
+    "start": "node index.js",
+    "pg:mainnet:createdb": "createdb capitalisk_main -h $POSTGRES_HOST -U ldpos",
+    "pg:testnet:createdb": "createdb capitalisk_test -h $POSTGRES_HOST -U ldpos"
   },
   "repository": {
     "type": "git",

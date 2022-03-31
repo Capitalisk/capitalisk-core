@@ -1,0 +1,75 @@
+{
+  "base": {
+    "ipcTimeout": 120000,
+    "moduleRedirects": {},
+    "components": {
+      "logger": {
+        "logFileName": "logs/mainnet/default.log",
+        "consoleLogLevel": "error",
+        "fileLogLevel": "error"
+      },
+      "dal": {
+        "libPath": "../ldpos-knex-dal",
+        "client": "sqlite3",
+        "connection": {
+          "filename": "db.sqlite3"
+        }
+      }
+    }
+  },
+  "modules": {
+    "leasehold_app": {
+      "nodeInfo": {
+        "version": "2.0.0",
+        "protocolVersion": "1.1",
+        "nethash": "ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511",
+        "broadhash": "ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511"
+      }
+    },
+    "leasehold_net": {
+      "wsPort": 8002,
+      "wsMaxMessageRate": 400,
+      "wsMaxMessageRatePenalty": 100,
+      "wsMaxPayloadInbound": 200000,
+      "wsMaxPayloadOutbound": 3000000,
+      "maxPeerInfoSize": 20000,
+      "seedPeers": [
+        {
+          "ip": "3.83.164.195",
+          "wsPort": 8001
+        },
+        {
+          "ip": "54.84.239.82",
+          "wsPort": 8001
+        },
+        {
+          "ip": "mainnet-seed-01.lisk.io",
+          "wsPort": 8001
+        },
+        {
+          "ip": "mainnet-seed-02.lisk-nodes.net",
+          "wsPort": 8001
+        },
+        {
+          "ip": "mainnet-seed-03.lisk.io",
+          "wsPort": 8001
+        },
+        {
+          "ip": "mainnet-seed-04.lisk-nodes.net",
+          "wsPort": 8001
+        }
+      ]
+    },
+    "capitalisk_chain": {
+      "modulePath": "node_modules/ldpos-chain",
+      "genesisPath": "../../genesis/mainnet/genesis.json",
+      "components": {
+        "logger": {
+          "logFileName": "logs/mainnet/clsk.log",
+          "consoleLogLevel": "error",
+          "fileLogLevel": "error"
+        }
+      }
+    }
+  }
+}
