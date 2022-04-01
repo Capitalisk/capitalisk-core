@@ -1,6 +1,6 @@
 {
   "name": "capitalisk-core",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "A full Capitalisk node implementation",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,7 @@
     "ldpos-chain": "^7.0.3",
     "ldpos-chain-crypto": "^5.0.1",
     "ldpos-pg-dal": "^4.4.1",
-    "lisk-dex": "^16.0.0",
+    "lisk-dex": "^16.0.1",
     "lisk-dex-http-api": "^6.0.0"
   }
 }
