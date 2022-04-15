@@ -1,6 +1,6 @@
 {
   "base": {
-    "ipcTimeout": 300000,
+    "ipcTimeout": 600000,
     "ackTimeout": 40000,
     "moduleRedirects": {},
     "components": {
