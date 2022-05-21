@@ -38,6 +38,8 @@
       "wsMaxMessageRatePenalty": 100,
       "wsMaxPayloadInbound": 1000000,
       "wsMaxPayloadOutbound": 3000000,
+      "maxOutboundConnections": 6,
+      "maxInboundConnections": 20,
       "maxPeerInfoSize": 20000,
       "seedPeers": [
         {
