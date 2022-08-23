@@ -59,9 +59,9 @@
         }
       }
     },
-    "lisk_dex_clsk_lsk": {
+    "ldex_clsk_lsk": {
       "moduleEnabled": true,
-      "modulePath": "node_modules/lisk-dex",
+      "modulePath": "node_modules/capitalisk-dex",
       "passiveMode": false,
       "dexEnabledFromHeight": 1,
       "signatureBroadcastDelay": 15000,
@@ -125,12 +125,12 @@
         }
       }
     },
-    "lisk_dex_clsk_lsk_http_api": {
+    "ldex_clsk_lsk_http_api": {
       "moduleEnabled": true,
-      "modulePath": "node_modules/lisk-dex-http-api",
+      "modulePath": "node_modules/capitalisk-dex-http-api",
       "port": 8021,
       "enableCORS": true,
-      "dexModuleAlias": "lisk_dex_clsk_lsk",
+      "dexModuleAlias": "ldex_clsk_lsk",
       "components": {
         "logger": {
           "fileLogLevel": "error",
