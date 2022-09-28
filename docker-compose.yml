@@ -1,6 +1,7 @@
 version: '3.9'
 services:
   capitalisk-core:
+    container_name: capitalisk-core
     build: .
     restart: always
     ports:
@@ -10,6 +11,7 @@ services:
 
   postgres:
     image: 'postgres:13-alpine'
+    container_name: capitalisk-postgres
     restart: always
     environment:
       POSTGRES_PASSWORD: ldpos
