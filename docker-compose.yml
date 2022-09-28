@@ -10,7 +10,7 @@ services:
       - postgres
 
   postgres:
-    image: 'postgres:13-alpine'
+    image: 'postgres:13'
     container_name: capitalisk-postgres
     restart: always
     environment:
