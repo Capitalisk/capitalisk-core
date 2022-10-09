@@ -13,8 +13,8 @@
         "libPath": "node_modules/ldpos-pg-dal",
         "connection": {
           "host": "127.0.0.1",
-          "user" : "ldpos",
-          "password" : "ldpos",
+          "user" : "postgres",
+          "password" : "password",
           "database" : "capitalisk_main",
           "port": "5432"
         }
