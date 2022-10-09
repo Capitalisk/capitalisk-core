@@ -37,7 +37,7 @@
     "ldpos-chain": "^9.1.0",
     "ldpos-chain-crypto": "^5.0.1",
     "ldpos-pg-dal": "^5.0.0",
-    "capitalisk-dex": "^17.1.0",
+    "capitalisk-dex": "^17.3.0",
     "capitalisk-dex-http-api": "^6.0.0"
   }
 }
