@@ -58,7 +58,9 @@
       "keyIndexDirPath": "data",
       "geneses": {
         "0": 1,
-        "260000": 5
+        "240000": 5,
+        "244686": 9,
+        "270000": 9
       },
       "components": {
         "logger": {
