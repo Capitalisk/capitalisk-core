@@ -6,8 +6,8 @@
     "components": {
       "logger": {
         "logFileName": "logs/mainnet/default.log",
-        "consoleLogLevel": "error",
-        "fileLogLevel": "error"
+        "consoleLogLevel": "debug",
+        "fileLogLevel": "debug"
       },
       "dal": {
         "libPath": "node_modules/ldpos-pg-dal",
@@ -63,8 +63,8 @@
       "components": {
         "logger": {
           "logFileName": "logs/mainnet/clsk.log",
-          "consoleLogLevel": "error",
-          "fileLogLevel": "error"
+          "consoleLogLevel": "debug",
+          "fileLogLevel": "debug"
         }
       }
     }
