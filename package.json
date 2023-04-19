@@ -35,7 +35,7 @@
   "dependencies": {
     "ldem": "^9.2.5",
     "ldpos-chain": "^9.2.0",
-    "ldpos-chain-crypto": "^5.0.2",
+    "ldpos-chain-crypto": "^5.0.3",
     "ldpos-pg-dal": "^5.0.0",
     "capitalisk-dex": "^18.1.0",
     "capitalisk-dex-http-api": "^6.0.0"
