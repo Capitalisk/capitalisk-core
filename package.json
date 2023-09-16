@@ -33,11 +33,11 @@
   },
   "homepage": "https://github.com/Capitalisk/capitalisk-core#readme",
   "dependencies": {
-    "ldem": "^9.2.6",
+    "ldem": "^10.0.0",
     "ldpos-chain": "^9.2.0",
     "ldpos-chain-crypto": "^5.0.3",
-    "ldpos-pg-dal": "^5.0.0",
-    "capitalisk-dex": "^18.1.0",
-    "capitalisk-dex-http-api": "^6.0.0"
+    "ldpos-pg-dal": "^6.0.0",
+    "capitalisk-dex": "^18.3.2",
+    "capitalisk-dex-http-api": "^6.1.0"
   }
 }
