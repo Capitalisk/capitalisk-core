@@ -57,10 +57,11 @@
       "genesisPath": "genesis/mainnet/clsk-genesis.json",
       "keyIndexDirPath": "data",
       "geneses": {
-        "0": 1,
-        "240000": 2,
-        "244686": 2,
-        "270000": 5
+        "0": 0,
+        "240000": 0,
+        "244686": 0,
+        "270000": 0,
+        "720500": 2
       },
       "components": {
         "logger": {
