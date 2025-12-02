@@ -1,6 +1,6 @@
 {
   "name": "capitalisk-core",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "A full Capitalisk node implementation",
   "main": "index.js",
   "scripts": {
@@ -33,11 +33,11 @@
   },
   "homepage": "https://github.com/Capitalisk/capitalisk-core#readme",
   "dependencies": {
-    "ldem": "^11.0.0",
-    "ldpos-chain": "^9.2.1",
-    "ldpos-chain-crypto": "^6.0.0",
-    "ldpos-pg-dal": "^6.0.0",
     "capitalisk-dex": "^18.3.2",
-    "capitalisk-dex-http-api": "^6.1.0"
+    "capitalisk-dex-http-api": "^6.1.0",
+    "ldem": "^11.0.0",
+    "ldpos-chain": "^9.2.2",
+    "ldpos-chain-crypto": "^6.0.0",
+    "ldpos-pg-dal": "^6.0.0"
   }
 }
